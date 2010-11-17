@@ -1,0 +1,235 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language ngerman
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+Praktikumsbericht
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\noindent
+Praktikumsumfeld
+\end_layout
+
+\begin_layout Subsection
+Verlag Der Tagesspiegel GmbH
+\end_layout
+
+\begin_layout Standard
+Der Verlag 
+\begin_inset Quotes eld
+\end_inset
+
+Der Tagesspiegel
+\begin_inset Quotes erd
+\end_inset
+
+ GmbH ist ein mittelständiges Medienunternehmen im Zentrum von Berlin.
+ Die erste Ausgabe wurde nach Kriegsende am 27.
+ September 1945 veröffentlicht.
+ Seit dem Jahr 2009 gehört die Tagesspiegel-Gruppe (
+\begin_inset Quotes eld
+\end_inset
+
+Der Tagesspiegel
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+zitty
+\begin_inset Quotes erd
+\end_inset
+
+, Zweite Hand Gruppe) zur 
+\begin_inset Quotes eld
+\end_inset
+
+Dieter von Holtzbrinck Medien GmbH
+\begin_inset Quotes erd
+\end_inset
+
+, der unter anderem auch die 
+\begin_inset Quotes eld
+\end_inset
+
+Saarbrücker Zeitung
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Handelsblatt
+\begin_inset Quotes erd
+\end_inset
+
+ und 
+\begin_inset Quotes eld
+\end_inset
+
+Die Zeit
+\begin_inset Quotes erd
+\end_inset
+
+ angehören.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Der Tagesspiegel
+\begin_inset Quotes erd
+\end_inset
+
+ erscheint pro Jahr 360 mal bei einer Auflage von ca.
+ 125.000 Exemplaren und zählt zu den meist zitierten Zeitungen in Deutschland.
+ Der Verkauf der Zeitung erfolgt im gesamten Bundesgebiet, wobei das Hauptaugenm
+erk auf dem Bereich Berlin und Brandenburg liegt.
+ 
+\end_layout
+
+\begin_layout Subsection
+Das Medienhaus
+\end_layout
+
+\begin_layout Standard
+Das Verlagsgebäude befindet sich im Zentrum von Berlin, unweit vom Potsdamer
+ Platz entfernt.
+ Der Umzug in das restaurierte Gebäude erfolgte im Oktober 2009.
+ Im Rahmen des Umzuges wurden die der Tagesspiegel-Gruppe angehörigen Tochterunt
+ernehmen 
+\begin_inset Quotes eld
+\end_inset
+
+zitty
+\begin_inset Quotes erd
+\end_inset
+
+, die Zweite Hand Gruppe, die damalige Tagesspiegel Phone Company, 
+\begin_inset Quotes eld
+\end_inset
+
+zeit digital
+\begin_inset Quotes erd
+\end_inset
+
+ und die Online Vertretung 
+\begin_inset Quotes eld
+\end_inset
+
+Urban Media
+\begin_inset Quotes erd
+\end_inset
+
+ im neuen Gebäude vereint.
+ Als zusätzliche Funktionalität wurden im neuen Gebäude mehrere Konferenzräume
+ gebaut, die tägliche durch diverse Veranstaltungen (viele auch durch externe
+ Anbieter) fast vollständig belegt sind.
+\end_layout
+
+\begin_layout Subsection
+Die technische Umgebung
+\end_layout
+
+\begin_layout Standard
+In das neue Verlagshaus wurde während der Umbauarbeiten eine komplett neue
+ IT-Infrastruktur verbaut.
+ Zentraler Punkt der Informationstechnik im Verlag ist das Rechenzentrum
+ 1 im Kellergeschoss des Gebäudes, das mit ca.
+ 20 Serverschränken bestückt ist.
+ In diesem Rechenzentrum sind alle wichtigen Server und sonstige Komponenten
+ zur Produktion untergebracht.
+ Diese Server umfassen nicht nur Systeme zur Zeitungsproduktion, sondern
+ auch alle Komponenten die für die täglichen Arbeiten notwendig sind, wie
+ die TK-Anlage, die Speichersysteme und das Mailsystem.
+ Im Rechenzentrum 2, das sich ebenfalls im Kellergeschoss befindet, sind
+ hauptsächlich die redundanten Komponenten der produktionsrelevanten Server
+ aus dem Rechenzentrum 1 untergebracht.
+ Das Gebäude ist technisch gesehen in zwei Brandabschnitte unterteilt, wobei
+ sich die beiden Rechenzentren in jeweils einem Brandabschnitt befinden.
+ Auf jeder der fünf Obergeschosse befindet sich jeweils ein Etagenverteiler
+ pro Brandabschnitt für die Etagenverkabelung, Aus Sicht der vertikalen
+ Netzwerkverkabelung, stellen die Rechnzentrum für ihren Brandabschnitt
+ die sekundären Konzentrationspunkte für die einzelnen Etagenverteiler dar.
+\end_layout
+
+\begin_layout Section
+Praktikumsaufgaben
+\end_layout
+
+\begin_layout Subsection
+Die WLAN-Infrastruktur
+\end_layout
+
+\begin_layout Subsection
+Systemmonitoring
+\end_layout
+
+\begin_layout Subsection
+sonstige Aufgaben
+\end_layout
+
+\begin_layout Section
+Fazit
+\end_layout
+
+\end_body
+\end_document
