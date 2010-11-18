@@ -239,8 +239,8 @@ ng eines hausweiten WLAN in Betracht gezogen.
  eine Infrastruktur geschaffen werden, die für die schnurlose Telefonie
  genutzt werden kann.
  Aufgrund der hohen Kosten und des administrativen Aufwandes zweier unabhängiger
- Infrastrukturen, sollte eine Lösung gefunden werden, um auf den sonst üblichen
- Schnurlos-Standard DECT verzichten zu können.
+ Infrastrukturen, sollte eine WLAN-Lösung gefunden werden, um auf den sonst
+ üblichen Schnurlos-Standard DECT verzichten zu können.
 \end_layout
 
 \begin_layout Subsubsection
@@ -248,11 +248,12 @@ Die Planung
 \end_layout
 
 \begin_layout Standard
-Im Vorfeld der Beschaffung wurde ein externer Dienstleister damit beauftragt,
+Im Vorfeld der Beschaffung wurde ein externer Dienstleister beauftragt,
  das komplette Gebäude einzumessen.
  Dieses Vorhaben war dringend notwendig um die späteren Standpunkte der
- neuen Access-Points frühzeitig zu definieren und um die benötigten Anzahl
- der Geräte für die Beschaffung festzulegen.
+ neuen Access-Points frühzeitig zu definieren (und damit auch die Positionen
+ für die entsprechenden Netzwerkdosen) und um die benötigten Anzahl der
+ Geräte für die Beschaffung festzulegen.
  Die Messung ergab eine benötigte Anzahl von ca.
  100 Access-Points.
  Aufgrund der hohen Geräteanzahlt für die komplette Abdeckung des Medienhauses
@@ -288,6 +289,83 @@ Die Anbringung der Access-Points erfolgte durch externe Unternehmen bereits
  für den späteren Benutzer möglichst transparent hinter den Deckensegeln
  bzw.
  den Wandpaneelen verstecken zu können.
+ Die WLCs wurden bereits am alten Standort in Betrieb genommen.
+ Vor der grundlegenden Konfiguration wurde die Firmware der WLC auf den
+ aktuellen Stand gebracht.
+ Anschließend erfolgte die grundlegende Konfiguration (IP-Adressen, Netzmasken,
+ VLAN,virtuelle Interface, SNMP-Server, usw.) um die Geräte am neuen Standort
+ möglichst schnell in Betrieb nehmen zu können.
+ Zur Integration der WLC in die neue Netzwerk-Infrastruktur mussten zuvor
+ die nötigen Vorbereitungen getroffen werden.
+ Dazu gehörte unter anderem die Festlegung der einzelnen Standort (je ein
+ WLC in den Rechenzentren, der dritte im 3.OG aufgrund der Absicherung durch
+ das Notstromaggregat), die Installation der benötigten Verkabelung und
+ die Konfiguration der Switch-Ports an die die WLC angeschlossen werden.
+ Nach der physikalischen Installation konnte die eigentlich Konfiguration
+ der WLC fortgesetzt werden.
+ Für eine Übernahme der Access-Points bei Ausfall eines WLC mussten die
+ Controller einander bekannt gemacht werden.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Für die Inbetriebnahme der einzelnen Access-Points mussten ebenfalls einige
+ Vorbereitungen getroffen werden.
+ Neben der Verkabelung der Access-Points in den Etagenverteilern mussten
+ auch hier wieder die entsprechenden Switch-Ports der konfiguriert werden.
+ Zusätzlich zur Konfiguration der Switchports mit den entsprechenden VLANs
+ mussten musste auch die Versorgung der Access-Points mit PoE konfiguriert
+ werden.
+ Durch diese Konfiguration sind wir in der Lage, die Access-Points ohne
+ externe Stromversorgung betreiben zu können, da die Versorgung über die
+ Netzwerkverkabelung erfolgt.
+ Die IP-Adressen der WLC wurden den Access-Points als Parameter über die
+ eigenen, durch DHCP verteilte, IP-Adresse übermittelt.
+ Nach Inbetriebnahme aller erwarteten Access-Points konnte mit Hilfe der
+ WLC schnell eine Bestandsaufnahme der bereits verfügbaren Access-Points
+ gemacht werden.
+ 80 Prozent der Access-Points waren ohne weitere Nacharbeiten verfügbar.
+ Die anderen 20 Prozent konnten in den anschließenden Wochen mit Hilfe der
+ externen Dienstleister, die die Montage während der Bauarbeiten vorgenommen
+ haben, in Betrieb genommen werden.
+ Die Fehler bestanden zu grossen Teilen in falsch oder gar nicht angebrachter
+ Netzwerkverkabelung.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Vor Inbetriebnahme der eingentlichen WLAN-Funktionalität wurde noch das
+ WCS aufgesetzt.
+ Diese zentrale Instanz ermöglicht uns die zentrale Verwaltung der Access-Points
+ und der WLC über ein Web-Frontend.
+ Somit ergibt sich der Vorteil, dass Änderungen nicht manuell auf den drei
+ WLC getätigt werden müssen, sondern die Administration fasst ausschließlich
+ über den WCS erfolgt.
+ Somit soll gewährleistet werden, dass Inkonsistenzen der Konfiguration
+ auf den WLC ausgeschlossen werden können.
+ Der WCS ermöglicht weiterhin die Einrichtung und Verwaltung von WLAN-Accounts
+ für spätere Nutzung der einzelnen WLAN-Ressourcen.
+ Grundlage der WCS-Installation ist ein physikalischer Server der mit Windows
+ Server 2003 betrieben wird.
+ Aufgrund der komplexen Konfiguration und Installation des WCS stand uns
+ ein externer Berater zur Verfügung.
+ Die Einrichtung eines Gastnetzes für externe Besucher des Verlages und
+ das Netz für die WLAN-Telefonie wurden im Rahmen der WCS-Inbetriebnahme
+ ebenfalls eingerichtet.
+\end_layout
+
+\begin_layout Subsubsection
+Die WLAN-Telefone
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Subsection
