@@ -77,7 +77,7 @@ Verlag Der Tagesspiegel GmbH
 \end_layout
 
 \begin_layout Standard
-Der Verlag 
+Die Verlag 
 \begin_inset Quotes eld
 \end_inset
 
@@ -104,7 +104,7 @@ zitty
 \begin_inset Quotes erd
 \end_inset
 
-, Zweite Hand Gruppe) zur 
+, die Zweite Hand Gruppe) zur 
 \begin_inset Quotes eld
 \end_inset
 
@@ -214,7 +214,10 @@ In das neue Verlagshaus wurde während der Umbauarbeiten eine komplett neue
  Auf jeder der fünf Obergeschosse befindet sich jeweils ein Etagenverteiler
  pro Brandabschnitt für die Etagenverkabelung, Aus Sicht der vertikalen
  Netzwerkverkabelung, stellen die Rechnzentrum für ihren Brandabschnitt
- die sekundären Konzentrationspunkte für die einzelnen Etagenverteiler dar.
+ die Schnittstellen für die einzelnen Etagenverteiler dar.
+ Die produktionrelevanten Etagen sind zusätzlich noch durch eine Unterbrechungsf
+reie Stromversorgung abegsichert die bei einem eventuellen Stromausfall
+ durch ein Diesel-Aggregat versorgt werden.
 \end_layout
 
 \begin_layout Section
@@ -223,6 +226,68 @@ Praktikumsaufgaben
 
 \begin_layout Subsection
 Die WLAN-Infrastruktur
+\end_layout
+
+\begin_layout Subsubsection
+Die Idee
+\end_layout
+
+\begin_layout Standard
+Bei der Erarbeitung der Konzeption für das neue Gebäude wurde auch die Einrichtu
+ng eines hausweiten WLAN in Betracht gezogen.
+ Zusätzlich zur üblichen Nutzung des WLAN via PC sollte zusätzlich noch
+ eine Infrastruktur geschaffen werden, die für die schnurlose Telefonie
+ genutzt werden kann.
+ Aufgrund der hohen Kosten und des administrativen Aufwandes zweier unabhängiger
+ Infrastrukturen, sollte eine Lösung gefunden werden, um auf den sonst üblichen
+ Schnurlos-Standard DECT verzichten zu können.
+\end_layout
+
+\begin_layout Subsubsection
+Die Planung
+\end_layout
+
+\begin_layout Standard
+Im Vorfeld der Beschaffung wurde ein externer Dienstleister damit beauftragt,
+ das komplette Gebäude einzumessen.
+ Dieses Vorhaben war dringend notwendig um die späteren Standpunkte der
+ neuen Access-Points frühzeitig zu definieren und um die benötigten Anzahl
+ der Geräte für die Beschaffung festzulegen.
+ Die Messung ergab eine benötigte Anzahl von ca.
+ 100 Access-Points.
+ Aufgrund der hohen Geräteanzahlt für die komplette Abdeckung des Medienhauses
+ wurde eine Technologie gesucht, mit der die einzelnen Access-Points zentral
+ verwaltet werden können.
+ Aufgrund der langjährigen Erfahrung mit Geräten der Firma Cisco wurde auch
+ für die Umsetzung der WLAN-Infrastruktur auf Komponenten dieser Firma zurückgeg
+riffen.
+ Zusätzlich zu den benötigten Access-Points wurden zusätzlich drei Wireless-LAN-
+Controller (WLC) und ein Wireless-Controll-Server (WCS) beschafft.
+ Die drei WLC sind für die administrative Steuerung der Access-Points zuständig.
+ Jeder dieser Controller ist aufgrund der beschafften Lizenzen in der Lage
+ 50 Access-Points zu verwalten.
+ Bei Normal-Betrieb der WLCs verteilen sich die vorhanden Access-Points
+ zu gleichen Teilen auf die Controller.
+ Bei Ausfall eines WLC bleibt die WLAN-Infrastruktur erhalten, weil die
+ beiden verbleibenden Controller in der Lage sind, die Access-Points des
+ ausgefallenen WLC automatisch zu übernehmen.
+ Der WCS stellt die übergeordnete Instanz für die Wireless-LAN-Controller
+ dar, um eine synchrone und anomaliefreie Konfiguration der WLCs zu gewährleiste
+n.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Montage und Installation
+\end_layout
+
+\begin_layout Standard
+Die Anbringung der Access-Points erfolgte durch externe Unternehmen bereits
+ während der Bauarbeiten.
+ Dieser frühe Zeitpunkt für die Montage wurde notwendig, um die Access-Points
+ für den späteren Benutzer möglichst transparent hinter den Deckensegeln
+ bzw.
+ den Wandpaneelen verstecken zu können.
 \end_layout
 
 \begin_layout Subsection
