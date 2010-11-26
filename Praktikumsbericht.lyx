@@ -45,6 +45,7 @@
 \begin_layout Standard
 \align center
 
+\family sans
 \series bold
 \size largest
 Praktikumsbericht
@@ -69,14 +70,20 @@ LatexCommand tableofcontents
 
 \begin_layout Section
 \noindent
+
+\family sans
 Praktikumsumfeld
 \end_layout
 
 \begin_layout Subsection
+
+\family sans
 Verlag Der Tagesspiegel GmbH
 \end_layout
 
 \begin_layout Standard
+
+\family sans
 Die Verlag 
 \begin_inset Quotes eld
 \end_inset
@@ -153,10 +160,14 @@ erk auf dem Bereich Berlin und Brandenburg liegt.
 \end_layout
 
 \begin_layout Subsection
+
+\family sans
 Das Medienhaus
 \end_layout
 
 \begin_layout Standard
+
+\family sans
 Das Verlagsgebäude befindet sich im Zentrum von Berlin, unweit vom Potsdamer
  Platz entfernt.
  Der Umzug in das restaurierte Gebäude erfolgte im Oktober 2009.
@@ -192,10 +203,14 @@ Urban Media
 \end_layout
 
 \begin_layout Subsection
+
+\family sans
 Die technische Umgebung
 \end_layout
 
 \begin_layout Standard
+
+\family sans
 In das neue Verlagshaus wurde während der Umbauarbeiten eine komplett neue
  IT-Infrastruktur verbaut.
  Zentraler Punkt der Informationstechnik im Verlag ist das Rechenzentrum
@@ -215,39 +230,67 @@ In das neue Verlagshaus wurde während der Umbauarbeiten eine komplett neue
  pro Brandabschnitt für die Etagenverkabelung, Aus Sicht der vertikalen
  Netzwerkverkabelung, stellen die Rechnzentrum für ihren Brandabschnitt
  die Schnittstellen für die einzelnen Etagenverteiler dar.
- Die produktionrelevanten Etagen sind zusätzlich noch durch eine Unterbrechungsf
-reie Stromversorgung abegsichert die bei einem eventuellen Stromausfall
+ Die produktionsrelevanten Etagen sind zusätzlich noch durch eine Unterbrechungs
+freie Stromversorgung abegsichert die bei einem eventuellen Stromausfall
  durch ein Diesel-Aggregat versorgt werden.
 \end_layout
 
 \begin_layout Section
+
+\family sans
 Praktikumsaufgaben
 \end_layout
 
 \begin_layout Subsection
+
+\family sans
 Die WLAN-Infrastruktur
 \end_layout
 
 \begin_layout Subsubsection
+
+\family sans
 Die Idee
 \end_layout
 
 \begin_layout Standard
+
+\family sans
 Bei der Erarbeitung der Konzeption für das neue Gebäude wurde auch die Einrichtu
-ng eines hausweiten WLAN in Betracht gezogen.
+ng eines hausweiten WLAN
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "WLAN"
+description "Wireless Local Area Network, Netzwerkarchite\\\\ktur zu kabellosen Anbindung von Netzwerkkomponenten in ein Netzwerk"
+
+\end_inset
+
+ in Betracht gezogen.
  Zusätzlich zur üblichen Nutzung des WLAN via PC sollte zusätzlich noch
  eine Infrastruktur geschaffen werden, die für die schnurlose Telefonie
  genutzt werden kann.
  Aufgrund der hohen Kosten und des administrativen Aufwandes zweier unabhängiger
  Infrastrukturen, sollte eine WLAN-Lösung gefunden werden, um auf den sonst
- üblichen Schnurlos-Standard DECT verzichten zu können.
+ üblichen Schnurlos-Standard DECT
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "DECT"
+description "Digital Enhanced Cordless Telecommunication, Standard für schnurlose Telefonie, sehr weit verbreitet\\\\"
+
+\end_inset
+
+ verzichten zu können.
 \end_layout
 
 \begin_layout Subsubsection
+
+\family sans
 Die Planung
 \end_layout
 
 \begin_layout Standard
+
+\family sans
 Im Vorfeld der Beschaffung wurde ein externer Dienstleister beauftragt,
  das komplette Gebäude einzumessen.
  Dieses Vorhaben war dringend notwendig um die späteren Standpunkte der
@@ -279,28 +322,63 @@ n.
 \end_layout
 
 \begin_layout Subsubsection
+
+\family sans
 Montage und Installation
 \end_layout
 
 \begin_layout Standard
+
+\family sans
 Die Anbringung der Access-Points erfolgte durch externe Unternehmen bereits
  während der Bauarbeiten.
  Dieser frühe Zeitpunkt für die Montage wurde notwendig, um die Access-Points
- für den späteren Benutzer möglichst transparent hinter den Deckensegeln
+ für den späteren Benutzer möglichst transparent hinter den Schallschutzsegeln
  bzw.
  den Wandpaneelen verstecken zu können.
  Die WLCs wurden bereits am alten Standort in Betrieb genommen.
  Vor der grundlegenden Konfiguration wurde die Firmware der WLC auf den
  aktuellen Stand gebracht.
- Anschließend erfolgte die grundlegende Konfiguration (IP-Adressen, Netzmasken,
- VLAN,virtuelle Interface, SNMP-Server, usw.) um die Geräte am neuen Standort
- möglichst schnell in Betrieb nehmen zu können.
+ Anschließend erfolgte die grundlegende Konfiguration (IP-Adressen
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "IP-Adressen"
+description "Internet Protocol Adressen, eindeutig Bezeichnung (Adressierung) von Netzwerkkomponenten in einem Computernetzwerk\\\\"
+
+\end_inset
+
+, Netzmasken, VLAN
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "VLAN"
+description "Virtual Local Area Network, Standard zur Gliederung von physikalische Netzwerken in kleinere logische Einheiten"
+
+\end_inset
+
+,virtuelle Interface, SNMP
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "SNMP"
+description "Simple Network Management Protocol, Standard zur Überwachung und (Fern-)Administration von Netzwerkkomponenten\\\\"
+
+\end_inset
+
+-Server, usw.) um die Geräte am neuen Standort möglichst schnell in Betrieb
+ nehmen zu können.
  Zur Integration der WLC in die neue Netzwerk-Infrastruktur mussten zuvor
  die nötigen Vorbereitungen getroffen werden.
  Dazu gehörte unter anderem die Festlegung der einzelnen Standort (je ein
  WLC in den Rechenzentren, der dritte im 3.OG aufgrund der Absicherung durch
  das Notstromaggregat), die Installation der benötigten Verkabelung und
- die Konfiguration der Switch-Ports an die die WLC angeschlossen werden.
+ die Konfiguration der Switch
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "Switch"
+description "Netzwerkgerät, regelt die logische Einteilung eines Netzwerkes in die unterschiedlichen VLANs, überträgt den Netzwerkverkehr an die entsprechenden Endgeräte"
+
+\end_inset
+
+-Ports an die die WLC angeschlossen werden.
  Nach der physikalischen Installation konnte die eigentlich Konfiguration
  der WLC fortgesetzt werden.
  Für eine Übernahme der Access-Points bei Ausfall eines WLC mussten die
@@ -317,13 +395,28 @@ Für die Inbetriebnahme der einzelnen Access-Points mussten ebenfalls einige
  Neben der Verkabelung der Access-Points in den Etagenverteilern mussten
  auch hier wieder die entsprechenden Switch-Ports der konfiguriert werden.
  Zusätzlich zur Konfiguration der Switchports mit den entsprechenden VLANs
- mussten musste auch die Versorgung der Access-Points mit PoE konfiguriert
- werden.
+ mussten musste auch die Versorgung der Access-Points mit PoE
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "PoE"
+description "Power over Ethernet, Standard zur Stromversorgung von Netzwerkkomponenten über die vorhanden Netzwerkverkabelung"
+
+\end_inset
+
+ konfiguriert werden.
  Durch diese Konfiguration sind wir in der Lage, die Access-Points ohne
  externe Stromversorgung betreiben zu können, da die Versorgung über die
  Netzwerkverkabelung erfolgt.
  Die IP-Adressen der WLC wurden den Access-Points als Parameter über die
- eigenen, durch DHCP verteilte, IP-Adresse übermittelt.
+ eigenen, durch DHCP
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "DHCP"
+description "Dynamic Host Configuration Protocol, hauptsächlich zur automatisierten Vergabe von IP-Adressen in einem Netzwerk eingesetzt, kann aber auch zusätzliche benötigte Informationen verteilen"
+
+\end_inset
+
+ verteilte, IP-Adresse übermittelt.
  Nach Inbetriebnahme aller erwarteten Access-Points konnte mit Hilfe der
  WLC schnell eine Bestandsaufnahme der bereits verfügbaren Access-Points
  gemacht werden.
@@ -361,23 +454,291 @@ Vor Inbetriebnahme der eingentlichen WLAN-Funktionalität wurde noch das
 \end_layout
 
 \begin_layout Subsubsection
+
+\family sans
 Die WLAN-Telefone
 \end_layout
 
 \begin_layout Standard
 
+\family sans
+Die Einführung der schnurlosen Telefone war ebenfalls ein Teilprojekt der
+ WLAN-Integration im neuen Medienhaus.
+ Als WLAN-Telefone sind derzeit Siemens Geräte im Einsatz, die das SIP
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "SIP"
+description "Session Initiation Protocol, Standard für den Aufbau und die Steuerung von Verbindungen für die IP-Telefonie "
+
+\end_inset
+
+ Protokoll unterstützen und somit kompatibel zu der im Haus eingesetzten
+ TK-Anlage sind.
+ Aufgrund fehlender Firmware-Updates auf den Telefonen war die Integration
+ in des Voice-WLAN schwierig.
+ Die Firmware-Updates konnten auschliesslich über die WLAN-Schnittstelle
+ der Telefone eingespielt werden.
+ Aufgrund der schlechten Verbindungsqualität zwischen den Telefonen und
+ den Access-Points gestaltete sich das Upgrade als sehr langwierig.
+ Die eigentliche Konfiguration gestaltete sich dann relativ einfach.
+ Dazu musste zusätzlich zu den WLAN-Anmelde-Daten ausschließlich, die für
+ die Anmeldung an der TK-Anlage
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "TK-Anlage"
+description "Telekommunikations-Anlage, verantwortlich für sämtlich Prozesse, die für die Telefonie benötigt werden (Gesprächsverwaltung, Fax, Telefonverwaltung, Mailbox)"
+
+\end_inset
+
+ benötigten Daten, wie SIP-Server und Teilnehmer-Nummer, eingetragen werden.
+ Derzeit befinden sich ca.
+ 15 WLAN-Telefone im Einsatz, wobei die ersten Erfahrungen zeigen, dass
+ noch erhebliche Probleme mit der Sprachqualität bestehen, die zeitnah analysier
+t und behoben werden müssen.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Parallel zur Konfiguration der einzelnen WLAN-Komponenten wurden einzelne
+ Dokumentationen bzw.
+ Handlungsanweisungen für die Einrichtung der Telefone und die Einrichtung
+ von Gast-User-Accounts angefertigt.
+ Mit Hilfe der Dokumentation zum Anlegen der Gast-User-Accounts wurden ausgewähl
+te Mitarbeiter des Hauses für die Einrichtung der einzelnen User geschult,
+ so dass die Abteilungen selbst in der Lage sind, die von ihnen benötigten
+ Zugangsdaten anzulegen.
 \end_layout
 
 \begin_layout Subsection
+
+\family sans
 Systemmonitoring
 \end_layout
 
+\begin_layout Subsubsection
+
+\family sans
+Einführung
+\end_layout
+
+\begin_layout Standard
+
+\family sans
+Neben der Einführung und Installation der WLAN-Infrastruktur bin ich in
+ das Projekt Systemmonitoring integriert.
+ Bereits am vorherigen Standort existierte eine Enterprise Lösung der Open-Sourc
+e-Software Nagios.
+ Nagios ist ein weitverbreitetes Tool mit dessen Hilfe man über das SNMP-Protoko
+ll Stausinformationen von sämtlichen Netzwerkgeräte abrufen kann.
+ Standardmäßig ist fast jedes Netzwerkgerät in der Lage diese Statusanfragen
+ via SNMP auswerten und beantworten zu können.
+ Um das realisieren zu können gibt es so genannte MIB
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "MIB"
+description "Management Inforamtion Base, baumähnliche Datei-Struktur in der definiert wird, welche Werte und Statusinformationen über SNMP abgefragt werden können"
+
+\end_inset
+
+-Dateien.
+ In diesen Dateien sind in einer baumähnlichen Struktur alle durch SNMP
+ abrufbaren Werte durch eindeutige Nummern (OID
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "OIDs"
+description "Object Identifier, eindeutige Nummer in einer MIB, mit der der entsprechende Wert mit Hilfe des SNMP-Protokolls abgefragt werden kann"
+
+\end_inset
+
+s) gekennzeichnet und aufgelistet.
+ Jedes Netzwerkgerät unterstütze Standard-MIBs mit denen hauptsächlich Grundinfo
+rmationen, wie z.B.
+ Gerätetyp oder Hostname, abgefragt werden können.
+ Zusätzlich zu den Standard-MIBs implementieren die Hersteller eigene MIBs
+ mit denen systemspezifische Werte, wie z.B.
+ Lüfterstatus oder Umgebungstemperaturen, ausgewertet werden können.
+\end_layout
+
+\begin_layout Subsubsection
+
+\family sans
+Einrichtung der System-Monitoring-Box
+\end_layout
+
+\begin_layout Standard
+
+\family sans
+Im Rahmen des Umzuges wurde ein Server mit der neuen Version unsere System-Monit
+oring-Box (SM-Box) beschafft.
+ Aufgrund vieler Neuerungen in der Serverlandschaft am neuen Standort, wurde
+ die Entscheidung getroffen, das System erneut aufzusetzen, ohne Daten aus
+ der vorherigen Implementation zu übernehmen.
+ Vorbereitend für die Überwachung durch die SM-Box wurde bei allen zu überwachen
+den Geräten das SNMP-Protokoll aktiviert und die in unserer IT übliche SNMP-Comm
+unity
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "SNMP-Community"
+description "Zeichenkette die den Zugriff auf ein Netzwerkgerät erlaubt, allerdings sehr unsicher, da dieser String einfach auszulesen ist"
+
+\end_inset
+
+ eingetragen werden.
+ Nach Aktivierung dieser Funktionen wurde damit begonnen alle zu überwachende
+ Geräte in die Datenbank der SM-Box anhand von IP-Adresse und Hostname einzupfle
+gen.
+ Die Überwachung umfasst nicht nur die ca.
+ 50 Serversysteme des Verlages, sondern auch Subsysteme wie die Klimaüberwachung
+ der Rechenzentren.
+ Derzeit werden weitere Planung durchgeführt um Geräte zu integrieren, die
+ nicht zu den administrativen Aufgaben der IT zählen, aber bei einem Ausfall
+ erhöhtes Risiko für die IT-Landschaft darstellen.
+ Zu diesen Systemen gehören unter anderem die Oxy-Reduct-Anlage
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "Oxy-Reduct-Anlage"
+description "Anlage zur Senkung des Sauerstoffgehalts in den Serverräumen, zur Vermeidung von Bränden"
+
+\end_inset
+
+, die beiden Unterbrechungsfreien Stromversorgungen, das Notstromaggregat,
+ Kleinklimageräte und die dazugehörigen Wärmetauscher.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Nach Aufnahme aller zu überwachender Hosts mussten die Dienste und Werte
+ definiert werden, die für die einzelnen Geräte zu überwachen sind.
+ Jeder Dienst muss in der SM-Box als Service eingepflegt werden und wird
+ dann im Anschluss dem zu überwachenden Host zugeordnet.
+ Die Anzahl der Services pro Host variiert dabei stark.
+ Bei einigen Komponenten ist es nur notwendig die Erreichbarkeit der Ressource
+ zu überprüfen oder einen gewissen Temperatur-Schwellwert zu überwachen.
+ Bei komplexeren Systemen, wie z.B.
+ einem Core-Router
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "Core-Router"
+description "zentrale Netwzerkkomponenten die den gesamten Netzwerkverkehr steuert"
+
+\end_inset
+
+, kann es dringend erforderlich sein Uplinks zu diversen andernen Geräten
+ zu überwachen, die einwandfrei Funktionalität der Lüfter zu beobachten
+ und die Umgebungstemperaturen zu registrieren, um bei einer Anomalie schnellstm
+öglich handeln zu können.
+ Im Bereich der zentralen Netzwerkkomponenten, wie den Routern und Switchen,
+ ist die Definition der zu überwachenden Dienste weitgehend abgeschlossen
+ und den einzelnen Geräte zugeordnet.
+ Im bereich der Serverüberwachung halten die Arbeiten noch mehrere Monate
+ an, da einige Systeme sehr komplex sind.
+ Zudem erfordern einige Server die Zuarbeit von den jeweiligen Systemadministrat
+oren, um zusätzliche Dienste zu installieren, die es anschließend ermöglichen
+ erweiterte Dienste, wie z.B.
+ Log-Dateien, zu analysieren.
+ Eine weitere anstehende Aufgabe ist es, die einzelnen Dienste und Server
+ zu Prozess-Strukturen zusammenzufassen, die es ermöglichen bei Ausfall
+ einer Teilkomponente die Auswirkungen auf den gesamten Prozess zu zeigen.
+ 
+\end_layout
+
 \begin_layout Subsection
+
+\family sans
 sonstige Aufgaben
 \end_layout
 
+\begin_layout Standard
+
+\family sans
+Neben den genannten Projekt-Aufgaben gibt es natürlich noch die tägliche
+ Produktion der Zeitung und der Online-Inhalte, aus der weitere Aufgaben
+ für die gesamte IT entstehen.
+ Diese Aufgaben umfassen sehr triviale Dinge wie defekte Tastaturen oder
+ leere Druckertoner, die auszutauschen sind.
+ Zudem kommen regelmäßig technische Probleme, wie Leitungsstörungen des
+ Internet-Providers oder von Ausfällen einelner Netzwerkkomponenten, die
+ kurzfristig bearbeitet werden müssen.
+ In regelmäßigen Intervallen sind auch Wartungs- und Umbauarbeiten durch
+ externe Unternehmen zu organisieren und zu überwachen.
+ Zu den täglichen Aufgaben zählen auch Umzüge von Rechnerarbeitplätzen und
+ Telefonen die einige Konfiguration und Aufschaltungen im Netzwerk erfordern,
+ um einen störungsfreien Betrieb zu ermöglichen.
+ Neben den eigentlichen Arbeiten darf natürlich die Dokumentation nicht
+ vernachlässigt werden.
+ Neben der einfachen Beschriftung von Netzwerkkablen und Switch-Ports, zählen
+ dazu auch Verschaltungspläne komplexerer Systeme (z.B.
+ TK-Anlage, Storage-Systeme
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "Storage-Systeme"
+description "zentrales Speichersystem für sämtliche Daten, das in das vorhanden Netzwerk integriert ist"
+
+\end_inset
+
+ usw.) anzufertigen und in regelmäßigen zu überarbeiten.
+ Vor dem Umzug in das neue Verlagsgebäude wurde für die Dokumentation und
+ Planung der Rechenzentren ein Programm angeschafft, das derzeit aufgrund
+ erheblicher technischer Probleme nicht genutzt werden kann.
+ Vorbereitend für die Nutzung dieses Tools wird, durch einen Kollegen und
+ mich, die Ist-Situation der Rechenzentren bereits erfasst und in elektronischer
+ Form vorgehalten, um bei einer erneuten Inbetriebnahme des Systems schnellstmög
+lich beginnen zu können.
+ 
+\end_layout
+
 \begin_layout Section
+
+\family sans
 Fazit
+\end_layout
+
+\begin_layout Standard
+
+\family sans
+Aufgrund der Ausbildung zum Fachinformatiker, die ich im Verlag 
+\begin_inset Quotes eld
+\end_inset
+
+Der Tagesspiegel
+\begin_inset Quotes erd
+\end_inset
+
+ GmbH absolviert habe, war mir das Arbeitsumfeld bereits bekannt.
+ Die Arbeiten in den letzten zwei Jahren waren sehr informativ und hilfreich.
+ Die Beteiligung an der Planung der Rechenzentren im Rahmen des Umzuges,
+ ermöglichte es mir viel Wissen zu sammeln, das bei Unternehmen mit vorhander
+ IT-Infrastruktur in diesem Umfang nicht realisiert werden kann.
+ Die anzufertigenden Dokumentationen halfen erheblich dabei das Verständis
+ für das Zusammenspiel der einzelnen Komponenten für die tägliche Produktion
+ zu schulen.
+ Die Erfahrungen bei der Einrichtung der, WLAN-Infrastruktur war nicht nur
+ aus technischer Sicht interessant.
+ Dabei habe ich gelernt, dass nicht nur reine technische Problem, sondern
+ durchaus auch organisatorische Probleme auftreten können die erfasst und
+ gelöst werden mussten.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family sans
+\begin_inset CommandInset nomencl_print
+LatexCommand printnomenclature
+
+\end_inset
+
+
 \end_layout
 
 \end_body
